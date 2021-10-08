@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+}
+.header ul {
+    display: flex;
+    margin-right: 60px;
+    width: 200px;
+}
+
+.header ul li {
+    margin: 0 20px;
+}

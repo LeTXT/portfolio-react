@@ -1,0 +1,33 @@
+main.main {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+img {
+    width: 250px;
+}
+
+Aside {
+    display: grid;
+    
+    align-items: flex-end;
+    
+    padding-top: 70px;
+    margin-bottom: 15px;
+    
+}
+Aside img {
+    width: 30px;
+    
+    transition: top 0.5s;
+    top: 0;
+
+    position: relative;
+}
+
+Aside img:hover {
+    top: -10px;
+    
+    transition: 0.5s;
+}
